@@ -1,0 +1,71 @@
+.edit-story-title {
+    width: 835px;
+    height: 537.6px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+
+    header {
+        border-bottom: 1px solid rgb(219, 219, 219);
+        height: 42.2px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+
+        button {
+            color: rgb(0, 149, 246);
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+    }
+
+    main {
+        #img-preview2 {
+            width: 493.8px;
+            height: 493.8px;
+            overflow: none;
+            border-right: 0.6px solid rgb(219, 219, 219);
+        }
+
+        .edit-story-form {
+            padding: 25px;
+
+            .user-section {
+                margin-block-end: 10px;
+                align-items: center;
+
+                .mini-user-img {
+                    margin-right: 10px;
+                    height: 32px;
+                    width: 32px;
+                    border-radius: 50%;
+
+                }
+
+                p {
+                    font-weight: 600;
+                }
+            }
+
+            .texterea {
+                margin-top: 15px;
+                height: 20px;
+                width: 300px;
+                border: none;
+                overflow: hidden;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+
+            .texterea:focus {
+                outline: none;
+            }
+
+        }
+    }
+}

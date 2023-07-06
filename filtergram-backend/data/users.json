@@ -1,0 +1,99 @@
+[
+    {
+        "_id": "u101",
+        "fullName": "Irene Radvogin",
+        "userName": "irene_rad",
+        "password": "mukmuk",
+        "mail": "IreneRadvogin@gmail.com",
+        "userBio": "",
+        "userImg": {
+            "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1685950112/eiqrhchqoliytvlhd60w.jpg",
+            "style": {
+                "filter": "none"
+            }
+        },
+        "followingId": [],
+        "followersId": [],
+        "following": [],
+        "followers": [],
+        "savedStories": [],
+        "taggedStories": [],
+        "userStories": [
+            "s101",
+            "v4QLe4zRc"
+        ]
+    },
+    {
+        "_id": "u102",
+        "fullName": "Jannet Simpson",
+        "userName": "jannetgirl",
+        "password": "jannetgirl",
+        "mail": "",
+        "userBio": "",
+        "userImg": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFtHTppnHblCfpg_T9M0Xu-hlgJLJgasbk0w&usqp=CAU",
+            "style": {
+                "filter": "none"
+            }
+        },
+        "followingId": [],
+        "followersId": [],
+        "following": [],
+        "followers": [],
+        "savedStories": [],
+        "taggedStories": [],
+        "userStories": [
+            "j3vMUK5a6",
+            "xSyNnD9QY"
+        ]
+    },
+    {
+        "_id": "u103",
+        "fullName": "Johnny Brown",
+        "userName": "johnny boy",
+        "password": "johnnyboy",
+        "mail": "",
+        "userBio": "",
+        "userImg": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe9nYvaxaQMY2u0Cyyk-5sTjQwJY1yq_NJIQ&usqp=CAU",
+            "style": {
+                "filter": "none"
+            }
+        },
+        "followingId": [],
+        "followersId": [],
+        "following": [],
+        "followers": [],
+        "savedStories": [],
+        "taggedStories": [],
+        "userStories": [
+            "JYs3aVq0C"
+        ]
+    },
+    {
+        "_id": "Guest",
+        "fullName": "David Goggins",
+        "userName": "davidg",
+        "password": "",
+        "mail": "",
+        "userBio": "",
+        "userImg": {
+            "url": "https://res.cloudinary.com/duxmabf4n/image/upload/v1686570314/wftqmpysimoxouukkpxj.jpg",
+            "style": {
+                "filter": "none"
+            }
+        },
+        "followingId": [],
+        "followersId": [],
+        "following": [],
+        "followers": [],
+        "savedStories": [],
+        "taggedStories": [],
+        "userStories": [
+            "PRgxvCtZJ",
+            "xBZoQCPXU",
+            "vrXTq97Uo",
+            "OOszq1f1W"
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+.story-grid.clean-list{
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 961px;
+}
+
+.story-grid{
+    position: relative;
+}
+
+.story-grid-preview:hover{
+    -webkit-filter: sepia(100%);
+    filter: brightness(80%);
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+
+
+.likes-count{
+    font-weight: 500;
+    position: absolute;
+    font-size: 1.2rem;
+    bottom:50.2%;
+    left: 110px;
+    opacity: 0;
+    color: white;
+}
+
+
+.like-icon{
+    position: absolute;
+    bottom:50.2%;
+    left: 90px;
+    opacity: 0;
+}
+
+.x1lliihq1.x1n2onr61{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    font-size: 1.2rem;
+    bottom:49.05%;
+    left: 155px;
+    opacity: 0;
+}
+
+.comments-count{
+    font-weight: 500;
+    position: absolute;
+    font-size: 1.2rem;
+    bottom:49.05%;
+    left: 176px;
+    opacity: 0;
+    color: white;
+}
+
+.story-grid-preview:hover .likes-count{
+    opacity:100 !important;
+}
+
+.story-grid-preview:hover .like-icon{
+    opacity: 100 !important;
+}
+
+.story-grid-preview:hover .comments-count{
+    opacity: 100 !important;
+}
+
+.story-grid-preview:hover .x1lliihq1.x1n2onr61{
+    opacity: 100 !important;
+}

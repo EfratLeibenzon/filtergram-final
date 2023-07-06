@@ -1,0 +1,123 @@
+.edit-img {
+    width: 835px;
+    height: 536.2px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 12px;
+    margin: 0;
+    padding: 0;
+
+    header {
+        height: 42.2px;
+        width: 100%;
+        line-height: 20px;
+        padding: 10px;
+        border-bottom: 1px solid rgb(219, 219, 219);
+        font-size: 16px;
+        font-weight: 600;
+
+        button {
+            color: #0095F6;
+        }
+    }
+
+    main {
+
+        #img-preview-container {
+            width: 493.8px;
+            height: 493.8px;
+            overflow: none;
+            border-right: rgb(219, 219, 219) 0.5px solid;
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        .img-editors {
+            width: 341px;
+            height: 494px;
+            padding: 10px;
+            padding-top: 0;
+
+            p {
+                align-self: center;
+                margin: 5px;
+                height: 20px;
+                width: 100%;
+                font-size: 14px;
+                padding: 7px;
+                padding-top: 0;
+            }
+
+
+            section.filter-btns {
+                text-align: center;
+                display: grid;
+                grid-template-columns: repeat(3, 33.3333%);
+                width: 90%;
+                height: 100%;
+                margin: auto;
+                // gap: 5px;
+                grid-auto-flow: dense;
+                padding-top: 0;
+
+
+                .filter-btn {
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 5px;
+                    border-color: transparent;
+
+                    p {
+                        text-align: center;
+                        font-size: 14px;
+                        color: #737373;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    img {
+                        border-radius: 5px;
+                        border-color: transparent;
+                        width: 88px;
+                        height: 88px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main.flex.row {
+        flex-direction: column;
+    }
+
+    #img-preview-container{
+        border: 1px solid white;
+    }
+
+    div.edit-img {
+        height: 100vh;
+        width: 100%;
+        overflow-y: scroll;
+
+        .img-editors {
+            width: 100%;
+            overflow-y: scroll;
+        }
+    }
+
+    main.flex.row  {
+        flex-direction: column;
+    }
+
+    div.edit-story-title {
+        height: 100vh;
+        width: 100%;
+        overflow-y: scroll;
+    }
+}
